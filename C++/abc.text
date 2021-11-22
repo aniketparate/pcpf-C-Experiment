@@ -1,0 +1,35 @@
+1.	Create a class ‘train’ with parameterised constructor and
+    protected data members.
+
+2.	Create a  class ‘reservation’ publicly derived  from train having
+    constructor function and 3 other functions.
+
+3.	Function book() is for booking no. of seats in a particular
+    class.  It accepts type of class (first, second or third) and no of seats to be reserved.  Before booking, check the availability.
+
+4.	Function cancel() accepts 2 arguments. Name of the class and no of
+    set to be cancelled.
+
+5.	Display_status will diaply train no and class wise no of seats
+    booked and no of seats available.
+
+6.      Menu
+    1.	Booking
+    2.	Cancellation
+    3.	Display Status
+    Accept a choice and process.
+    Example :
+
+7.	    Menu
+    1.	Booking
+    2.	Cancellation
+    3.	Display Status
+    Enter your choice : 3
+
+    Available seats 
+    Train No	First Class		Second Class		Third Class
+    12956		    195			    200			        200
+
+    Booked seats
+    Train No	First Class		Second Class		Third Class
+    12956		    5			    0			        0
